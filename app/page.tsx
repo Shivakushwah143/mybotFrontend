@@ -720,7 +720,7 @@ Check out My latest work, connect on Instagram, or explore his GitHub for cool p
                   key={message.id}
                   className={`flex ${message.sender === 'user' ? 'justify-end' : 'justify-start'}`}
                 >
-                  <div className={`flex gap-3 max-w-[80%] ${message.sender === 'user' ? 'flex-row-reverse' : 'flex-row'}`}>
+                  <div className={`flex gap-3 max-w-[95%] ${message.sender === 'user' ? 'flex-row-reverse' : 'flex-row'}`}>
                     {/* Avatar
                     <div className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center ${message.sender === 'user'
                         ? 'bg-orange-500'

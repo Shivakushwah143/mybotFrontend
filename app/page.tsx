@@ -549,7 +549,7 @@ Check out My latest work, connect on Instagram, or explore his GitHub for cool p
     setError(null);
 
     try {
-      const response = await fetch('http://localhost:3000/api/chat', {
+      const response = await fetch('https://mybot-yov8.onrender.com/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -769,7 +769,7 @@ Check out My latest work, connect on Instagram, or explore his GitHub for cool p
               {/* Typing Indicator */}
               {isLoading && (
                 <div className="flex justify-start">
-                  <div className="flex gap-3 max-w-[80%]">
+                  <div className="flex gap-3 max-w-[90%]">
                     <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center">
                       <Bot className="w-4 h-4 text-white" />
                     </div>
